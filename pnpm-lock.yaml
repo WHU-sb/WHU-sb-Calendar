@@ -14,13 +14,13 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^25.3.2
-    version: 25.3.2
+    specifier: ^25.4.0
+    version: 25.4.0
 
 packages:
 
-  /@types/node@25.3.2:
-    resolution: {integrity: sha512-RpV6r/ij22zRRdyBPcxDeKAzH43phWVKEjL2iksqo1Vz3CuBUrgmPpPhALKiRfU7OMCmeeO9vECBMsV0hMTG8Q==}
+  /@types/node@25.4.0:
+    resolution: {integrity: sha512-9wLpoeWuBlcbBpOY3XmzSTG3oscB6xjBEEtn+pYXTfhyXhIxC5FsBer2KTopBlvKEiW9l13po9fq+SJY/5lkhw==}
     dependencies:
       undici-types: 7.18.2
     dev: true
