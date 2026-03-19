@@ -139,7 +139,9 @@ whu-calendar/
 <!--GAMFC_DELIMITER--><a href="https://github.com/HsukqiLee" title="Hsukqi Lee"><img src="https://avatars.githubusercontent.com/u/79034142?v=4" width="50;" alt="Hsukqi Lee"/></a>
 <a href="https://github.com/ExerciseBook" title="Eric_Lian"><img src="https://avatars.githubusercontent.com/u/6327311?v=4" width="50;" alt="Eric_Lian"/></a>
 <a href="https://github.com/little-weakduck" title="Little Weakduck"><img src="https://avatars.githubusercontent.com/u/83490374?v=4" width="50;" alt="Little Weakduck"/></a>
-<a href="https://github.com/misakayuuki" title="misa想变猫猫娘"><img src="https://avatars.githubusercontent.com/u/45150398?v=4" width="50;" alt="misa想变猫猫娘"/></a><!--GAMFC_DELIMITER_END-->
+<a href="https://github.com/LeixinSun" title="Leixin Sun"><img src="https://avatars.githubusercontent.com/u/233723091?v=4" width="50;" alt="Leixin Sun"/></a>
+<a href="https://github.com/misakayuuki" title="misa想变猫猫娘"><img src="https://avatars.githubusercontent.com/u/45150398?v=4" width="50;" alt="misa想变猫猫娘"/></a>
+<a href="https://github.com/LaplaceYoung" title="CauchYoung"><img src="https://avatars.githubusercontent.com/u/219803883?v=4" width="50;" alt="CauchYoung"/></a><!--GAMFC_DELIMITER_END-->
 
 ## 联系方式
 
