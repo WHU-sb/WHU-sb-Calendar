@@ -14,9 +14,7 @@ jobs:
         id: contributors
         with:
           filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
-          openDelimiter: '<!--GAMFC_DELIMITER-->'
-          closeDelimiter: '<!--GAMFC_DELIMITER-END-->'
-          hideName: 'false'
+          avatarSize: 42
 
       - name: Modify htmlTable README.md
         uses: jaywcjlove/github-action-modify-file-content@main
