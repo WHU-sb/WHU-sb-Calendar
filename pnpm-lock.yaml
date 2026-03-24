@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   ics:
-    specifier: ^3.8.1
-    version: 3.8.1
+    specifier: ^3.9.1
+    version: 3.9.1
   typescript:
     specifier: ^5.9.3
     version: 5.9.3
@@ -25,8 +25,8 @@ packages:
       undici-types: 7.18.2
     dev: true
 
-  /ics@3.8.1:
-    resolution: {integrity: sha512-UqQlfkajfhrS4pUGQfGIJMYz/Jsl/ob3LqcfEhUmLbwumg+ZNkU0/6S734Vsjq3/FYNpEcZVKodLBoe+zBM69g==}
+  /ics@3.9.1:
+    resolution: {integrity: sha512-wanjdE/xKJJOkIujddNzxzI4R3V5vKKCgonzid30dDr1tJG4/nciCq82I5rgVAGzcHu+osQakTOA44jwG8RV7w==}
     dependencies:
       nanoid: 3.3.11
       runes2: 1.1.4
