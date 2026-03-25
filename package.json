@@ -6,7 +6,7 @@
     "generate": "node dist/calendar_2021.js && node dist/calendar_2022.js && node dist/calendar_2023.js && node dist/calendar_2024.js && node dist/calendar_2025.js"
   },
   "dependencies": {
-    "ics": "^3.8.1",
+    "ics": "^3.10.0",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
