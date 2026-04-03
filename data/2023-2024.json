@@ -73,14 +73,16 @@
     {
       "id": "new-year-holiday",
       "title": "元旦假期",
-      "start": [2023, 1, 1],
-      "end": [2023, 1, 2]
+      "description": "",
+      "start": [2024, 1, 1],
+      "end": [2024, 1, 2]
     },
     {
       "id": "spring-festival-holiday",
       "title": "春节假期",
-      "start": [2023, 2, 10],
-      "end": [2023, 2, 11]
+      "description": "",
+      "start": [2024, 2, 10],
+      "end": [2024, 2, 11]
     },
     {
       "id": "term-1-final-week",
