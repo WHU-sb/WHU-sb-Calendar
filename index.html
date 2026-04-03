@@ -794,14 +794,14 @@ console.log('Hostname:', window.location.hostname);
         const container = document.getElementById('individual-years')
         container.innerHTML = ''
 
-        years.forEach((year) => {
+        years.forEach((yearRange) => {
           const link = document.createElement('a')
-          link.href = `./${year}-${year + 1}.ics`
-          link.download = `whu-calendar-${year}-${year + 1}.ics`
+          link.href = `./${yearRange}.ics`
+          link.download = `whu-calendar-${yearRange}.ics`
           link.className = 'download-card secondary'
           link.innerHTML = `
             <div>
-              <div class="download-title">${year}-${year + 1} 学年</div>
+              <div class="download-title">${yearRange} 学年</div>
               <div class="download-description">单学年校历文件</div>
             </div>
             <i class="fas fa-arrow-down"></i>
@@ -810,25 +810,39 @@ console.log('Hostname:', window.location.hostname);
         })
       }
 
-      // 生成历史版本合集链接
+      // 生成历史版本累计合集链接
       function generateLegacyYearLinks(years) {
         const container = document.getElementById('legacy-years')
         container.innerHTML = ''
 
-        years.forEach((year) => {
+        if (years.length < 2) {
+          container.innerHTML = '<div class="download-card">暂无历史合集</div>'
+          return
+        }
+
+        const startYear = years[0].split('-')[0]
+
+        // 从第二个学年开始生成从第一年起的合集
+        for (let i = 1; i < years.length; i++) {
+          const endYear = years[i].split('-')[1]
+          const rangeName = `${startYear}-${endYear}`
+          
           const link = document.createElement('a')
-          link.href = `./dist/legacy/${year}.ics`
-          link.download = `whu-calendar-legacy-${year}.ics`
+          // 如果是最后一个，可以指向 all.ics 或者 rangeName.ics (两者等价)
+          const fileName = (i === years.length - 1) ? 'all.ics' : `${rangeName}.ics`
+          
+          link.href = `./${fileName}`
+          link.download = `whu-calendar-${rangeName}.ics`
           link.className = 'download-card'
           link.innerHTML = `
             <div>
-              <div class="download-title">${year} 合集</div>
-              <div class="download-description">历史累计版本</div>
+              <div class="download-title">${rangeName} 合集</div>
+              <div class="download-description">包含 ${startYear} 至 ${endYear} 数据</div>
             </div>
             <i class="fas fa-arrow-down"></i>
           `
           container.appendChild(link)
-        })
+        }
       }
 
       function setupReveal() {

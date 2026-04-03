@@ -92,6 +92,20 @@ async function generate() {
 
     allEvents.push(...calendarEvents)
     years.push(data.name)
+
+    // Generate cumulative ics (starting from 2nd year)
+    if (years.length > 1) {
+      const startYear = years[0].split('-')[0]
+      const endYear = data.name.split('-')[1]
+      const rangeName = `${startYear}-${endYear}`
+      
+      createEvents(allEvents, (error, value) => {
+        if (!error && value) {
+          writeFileSync(join(distDir, `${rangeName}.ics`), value)
+          console.log(`✅ Generated cumulative ${rangeName}.ics`)
+        }
+      })
+    }
   }
 
   // Generate all.ics

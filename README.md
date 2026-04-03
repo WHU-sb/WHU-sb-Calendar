@@ -79,7 +79,7 @@ whu-calendar/
 
 ## 数据说明
 
-自 2024 年起，本项目弃用了 `calendar_YYYY.ts` 脚本方式，转而采用 JSON 数据驱动。
+自 2026 年起，本项目弃用了 `calendar_YYYY.ts` 脚本方式，转而采用 JSON 数据驱动。
 
 ### 格式对比 (Legacy vs Modern)
 
