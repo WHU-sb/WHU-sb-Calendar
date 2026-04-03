@@ -5,7 +5,7 @@
     "generate": "tsx src/engine.ts"
   },
   "dependencies": {
-    "ics": "^3.8.1",
+    "ics": "^3.11.0",
     "nanoid": "^5.0.7",
     "tsx": "^4.19.2",
     "typescript": "^5.3.3"
