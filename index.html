@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
@@ -14,6 +14,21 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <script>
+      // Domain Canonicalization
+      if (
+        window.location.protocol !== 'file:' &&
+        window.location.hostname &&
+        window.location.hostname !== 'calendar.whu.sb' &&
+        window.location.hostname !== 'localhost' &&
+        window.location.hostname !== '127.0.0.1' &&
+        !window.location.hostname.endsWith('.local')
+      ) {
+        console.log('Protocol:', window.location.protocol);
+console.log('Hostname:', window.location.hostname);
+        //window.location.href = 'https://calendar.whu.sb' + window.location.pathname + window.location.search;
+      }
+    </script>
     <style>
       :root {
         --whu-blue: #0d3e91;
@@ -233,6 +248,13 @@
         color: var(--ink-muted);
         max-width: 760px;
         font-size: 0.98rem;
+      }
+
+      @media (min-width: 901px) {
+        .section-copy {
+          text-align: right;
+          margin-left: auto;
+        }
       }
 
       .download-panel,
@@ -568,10 +590,10 @@
       <canvas id="sakura-canvas" aria-hidden="true"></canvas>
       <div class="hero-top">
         <div class="brand">Wuhan University Calendar</div>
-        <a class="hero-link" href="https://github.com/ParaParty/whu-calendar" target="_blank" rel="noopener">
-          <i class="fab fa-github"></i> 仓库
-        </a>
-      </div>
+          <a class="hero-link" href="https://github.com/WHU-sb/WHU-sb-Calendar" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> 仓库
+          </a>
+        </div>
 
       <div class="hero-main">
         <h1 class="hero-title" aria-label="武汉大学 iCalendar 校历">
@@ -612,7 +634,7 @@
             <span>all.ics</span>
           </div>
           <div class="download-grid">
-            <a href="./dist/all.ics" class="download-card primary" download="whu-calendar-all.ics">
+            <a href="./all.ics" class="download-card primary" download="whu-calendar-all.ics">
               <div>
                 <div class="download-title">下载完整合集</div>
                 <div class="download-description">包含全部学年</div>
@@ -744,9 +766,9 @@
 
       <footer class="footer" data-reveal style="--delay: 120ms">
         <div class="footer-links">
-          <a href="https://github.com/ParaParty/whu-calendar/blob/master/document.md" target="_blank" rel="noopener"><i class="fas fa-book"></i> 使用文档</a>
+          <a href="https://github.com/WHU-sb/WHU-sb-Calendar/blob/main/document.md" target="_blank" rel="noopener"><i class="fas fa-book"></i> 使用文档</a>
           <a href="https://uc.whu.edu.cn/" target="_blank" rel="noopener"><i class="fas fa-university"></i> 武汉大学本科生院</a>
-          <a href="https://github.com/ParaParty/whu-calendar" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://github.com/WHU-sb/WHU-sb-Calendar" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
         </div>
         <p class="credits">数据来源：武汉大学本科生院。图片来源：Wikimedia Commons（CC BY-SA）。</p>
       </footer>
@@ -756,33 +778,15 @@
       // 动态获取可用学年的函数
       async function getAvailableYears() {
         try {
-          // 尝试从 dist 目录获取年份信息
-          const response = await fetch('./dist/years.json')
+          const response = await fetch('./years.json')
           if (response.ok) {
             const data = await response.json()
             return data.years || []
           }
         } catch (error) {
-          console.log('无法获取 years.json，尝试其他方法')
+          console.error('无法获取 years.json:', error)
         }
-
-        // 备用方法：通过检查文件是否存在来推断年份
-        const years = []
-        const currentYear = new Date().getFullYear()
-
-        // 检查从2021年到当前年份的文件
-        for (let year = 2021; year <= currentYear + 1; year++) {
-          try {
-            const response = await fetch(`./dist/${year}-${year + 1}.ics`, { method: 'HEAD' })
-            if (response.ok) {
-              years.push(year)
-            }
-          } catch (error) {
-            // 文件不存在，继续检查下一个
-          }
-        }
-
-        return years
+        return []
       }
 
       // 生成单学年校历链接
@@ -792,7 +796,7 @@
 
         years.forEach((year) => {
           const link = document.createElement('a')
-          link.href = `./dist/${year}-${year + 1}.ics`
+          link.href = `./${year}-${year + 1}.ics`
           link.download = `whu-calendar-${year}-${year + 1}.ics`
           link.className = 'download-card secondary'
           link.innerHTML = `
@@ -923,11 +927,11 @@
           return {
             x: Math.random() * width,
             y: spawnTop ? -Math.random() * height * 0.6 : Math.random() * height,
-            vx: (Math.random() - 0.5) * 0.8,
-            vy: 0.7 + Math.random() * 1.5,
+            vx: (Math.random() - 0.5) * 0.5,
+            vy: 0.35 + Math.random() * 0.75,
             size: 6 + Math.random() * 8,
             rot: Math.random() * Math.PI * 2,
-            rotV: (Math.random() - 0.5) * 0.04,
+            rotV: (Math.random() - 0.5) * 0.02,
             wobble: Math.random() * Math.PI * 2,
             wobbleV: 0.01 + Math.random() * 0.02,
             hueShift: Math.random() * 10 - 5,
