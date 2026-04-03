@@ -25,7 +25,7 @@ Date.prototype.addWeek = function (i: number): Date {
 
 export function uidGenerateFactory(base?: string): (s?: string) => string {
   if (base === null || base?.length == 0) {
-    base = __filename
+    base = import.meta.url
   }
 
   return (s) => {

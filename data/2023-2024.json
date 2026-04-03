@@ -1,0 +1,165 @@
+{
+  "name": "2023-2024",
+  "uidPrefix": "whu-calendar-2023",
+  "events": [
+    {
+      "id": "class-begin",
+      "title": "除本科新生外所有本科生和在籍研究生开始上课",
+      "start": [2023, 9, 11],
+      "end": [2023, 9, 12]
+    },
+    {
+      "id": "undergraduate-freshman-registration",
+      "title": "本科新生注册",
+      "description": "请仔细对照录取通知书上的要求准备好材料。",
+      "start": [2023, 8, 25],
+      "end": [2023, 8, 26]
+    },
+    {
+      "id": "undergraduate-freshman-before-class-begin",
+      "title": "本科生新生入学教育开始",
+      "start": [2023, 8, 26],
+      "end": [2023, 8, 27]
+    },
+    {
+      "id": "military-training",
+      "title": "新生军训",
+      "start": [2023, 8, 27],
+      "end": [2023, 9, 17]
+    },
+    {
+      "id": "undergraduate-master-registration",
+      "title": "本科生老生、研究生老生返校注册",
+      "start": [2023, 9, 10],
+      "end": [2023, 9, 11]
+    },
+    {
+      "id": "master-freshman-registration",
+      "title": "研究生新生注册",
+      "description": "请仔细对照录取通知书上的要求准备好材料。",
+      "start": [2023, 9, 9],
+      "end": [2023, 9, 10]
+    },
+    {
+      "id": "master-freshman-before-class-begin",
+      "title": "研究生新生入学教育开始",
+      "start": [2023, 9, 10],
+      "end": [2023, 9, 11]
+    },
+    {
+      "id": "undergraduate-freshman-class-begin",
+      "title": "本科生新生开始上课",
+      "start": [2023, 9, 18],
+      "end": [2023, 9, 19]
+    },
+    {
+      "id": "mid-autumn-festival-holiday",
+      "title": "中秋节假期",
+      "start": [2023, 9, 29],
+      "end": [2023, 9, 30]
+    },
+    {
+      "id": "national-day-holiday",
+      "title": "国庆节假期",
+      "start": [2023, 10, 1],
+      "end": [2023, 10, 4]
+    },
+    {
+      "id": "school-sports-meeting",
+      "title": "校运会（11月2日下午-11月4日）",
+      "start": [2023, 11, 2],
+      "end": [2023, 11, 5]
+    },
+    {
+      "id": "new-year-holiday",
+      "title": "元旦假期",
+      "start": [2023, 1, 1],
+      "end": [2023, 1, 2]
+    },
+    {
+      "id": "spring-festival-holiday",
+      "title": "春节假期",
+      "start": [2023, 2, 10],
+      "end": [2023, 2, 11]
+    },
+    {
+      "id": "term-1-final-week",
+      "title": "考试周",
+      "start": [2024, 1, 7],
+      "end": [2024, 1, 21]
+    },
+    {
+      "id": "winter-vacation",
+      "title": "寒假",
+      "description": "教职工寒假执行学校通知。",
+      "start": [2024, 1, 21],
+      "end": [2024, 2, 25]
+    },
+    {
+      "id": "registration-term-2",
+      "title": "第二学期返校注册",
+      "start": [2024, 2, 25],
+      "end": [2024, 2, 26]
+    },
+    {
+      "id": "class-begin-term-2",
+      "title": "第二学期开始上课",
+      "start": [2024, 2, 26],
+      "end": [2024, 2, 27]
+    },
+    {
+      "id": "ching-ming-festival-holiday",
+      "title": "清明节",
+      "description": "调休细节日后更新",
+      "start": [2024, 4, 4],
+      "end": [2024, 4, 5]
+    },
+    {
+      "id": "may-day-holiday",
+      "title": "劳动节假期",
+      "description": "调休通知见官网。",
+      "start": [2024, 5, 1],
+      "end": [2024, 5, 2]
+    },
+    {
+      "id": "dragon-boat-festival-holiday",
+      "title": "端午节",
+      "description": "调休细节日后更新",
+      "start": [2024, 6, 10],
+      "end": [2024, 6, 11]
+    },
+    {
+      "id": "term-2-final-week",
+      "title": "第二学期考试周",
+      "start": [2024, 6, 16],
+      "end": [2024, 6, 30]
+    },
+    {
+      "id": "summer-vacation",
+      "title": "暑假",
+      "description": "教职工暑假执行学校通知",
+      "start": [2024, 7, 28],
+      "end": [2024, 9, 8]
+    }
+  ],
+  "semesters": [
+    {
+      "name": "2023-2024第一学期",
+      "prefix": "term-1",
+      "start": [2023, 9, 10],
+      "weeks": 19
+    },
+    {
+      "name": "2023-2024第二学期",
+      "prefix": "term-2",
+      "start": [2024, 2, 25],
+      "weeks": 18
+    },
+    {
+      "name": "2023-2024第三学期",
+      "prefix": "term-3",
+      "start": [2024, 6, 30],
+      "weeks": 4
+    }
+  ]
+}

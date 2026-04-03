@@ -1,0 +1,165 @@
+{
+  "name": "2025-2026",
+  "uidPrefix": "whu-calendar-2025",
+  "events": [
+    {
+      "id": "class-begin",
+      "title": "除本科新生外所有本科生和在籍研究生开始上课",
+      "start": [2025, 9, 8],
+      "end": [2025, 9, 9]
+    },
+    {
+      "id": "undergraduate-freshman-registration",
+      "title": "本科新生注册",
+      "description": "请仔细对照录取通知书上的要求准备好材料。",
+      "start": [2025, 9, 1],
+      "end": [2025, 9, 2]
+    },
+    {
+      "id": "undergraduate-freshman-before-class-begin",
+      "title": "本科生新生入学教育开始",
+      "start": [2025, 9, 2],
+      "end": [2025, 9, 3]
+    },
+    {
+      "id": "military-training",
+      "title": "新生军训",
+      "start": [2025, 9, 2],
+      "end": [2025, 9, 22]
+    },
+    {
+      "id": "undergraduate-master-registration",
+      "title": "本科生老生、研究生老生返校注册",
+      "start": [2025, 9, 7],
+      "end": [2025, 9, 8]
+    },
+    {
+      "id": "master-freshman-registration",
+      "title": "研究生新生注册",
+      "description": "请仔细对照录取通知书上的要求准备好材料。",
+      "start": [2025, 9, 2],
+      "end": [2025, 9, 3]
+    },
+    {
+      "id": "master-freshman-before-class-begin",
+      "title": "研究生新生入学教育开始",
+      "start": [2025, 9, 3],
+      "end": [2025, 9, 4]
+    },
+    {
+      "id": "undergraduate-freshman-class-begin",
+      "title": "本科生新生开始上课",
+      "start": [2025, 9, 22],
+      "end": [2025, 9, 23]
+    },
+    {
+      "id": "mid-autumn-festival-holiday",
+      "title": "中秋节假期",
+      "start": [2025, 10, 6],
+      "end": [2025, 10, 7]
+    },
+    {
+      "id": "national-day-holiday",
+      "title": "国庆节假期",
+      "start": [2025, 10, 1],
+      "end": [2025, 10, 4]
+    },
+    {
+      "id": "school-sports-meeting",
+      "title": "校运会（11月6日下午-11月8日）",
+      "start": [2025, 11, 6],
+      "end": [2025, 11, 9]
+    },
+    {
+      "id": "new-year-holiday",
+      "title": "元旦假期",
+      "start": [2026, 1, 1],
+      "end": [2026, 1, 2]
+    },
+    {
+      "id": "spring-festival-holiday",
+      "title": "春节假期",
+      "start": [2026, 2, 17],
+      "end": [2026, 2, 18]
+    },
+    {
+      "id": "term-1-final-week",
+      "title": "考试周",
+      "start": [2026, 1, 4],
+      "end": [2026, 1, 18]
+    },
+    {
+      "id": "winter-vacation",
+      "title": "寒假",
+      "description": "教职工寒假执行学校通知。",
+      "start": [2026, 1, 18],
+      "end": [2026, 2, 28]
+    },
+    {
+      "id": "registration-term-2",
+      "title": "第二学期返校注册",
+      "start": [2026, 3, 1],
+      "end": [2026, 3, 2]
+    },
+    {
+      "id": "class-begin-term-2",
+      "title": "第二学期开始上课",
+      "start": [2026, 3, 2],
+      "end": [2026, 3, 3]
+    },
+    {
+      "id": "ching-ming-festival-holiday",
+      "title": "清明节",
+      "description": "调休细节日后更新",
+      "start": [2026, 4, 5],
+      "end": [2026, 4, 6]
+    },
+    {
+      "id": "may-day-holiday",
+      "title": "劳动节假期",
+      "description": "调休通知见官网。",
+      "start": [2026, 5, 1],
+      "end": [2026, 5, 2]
+    },
+    {
+      "id": "dragon-boat-festival-holiday",
+      "title": "端午节",
+      "description": "调休细节日后更新",
+      "start": [2026, 6, 19],
+      "end": [2026, 6, 20]
+    },
+    {
+      "id": "term-2-final-week",
+      "title": "第二学期考试周",
+      "start": [2026, 6, 21],
+      "end": [2026, 7, 5]
+    },
+    {
+      "id": "summer-vacation",
+      "title": "暑假",
+      "description": "教职工暑假执行学校通知",
+      "start": [2026, 7, 19],
+      "end": [2026, 9, 6]
+    }
+  ],
+  "semesters": [
+    {
+      "name": "2025-2026第一学期",
+      "prefix": "term-1",
+      "start": [2025, 9, 7],
+      "weeks": 19
+    },
+    {
+      "name": "2025-2026第二学期",
+      "prefix": "term-2",
+      "start": [2026, 3, 2],
+      "weeks": 18
+    },
+    {
+      "name": "2025-2026第三学期",
+      "prefix": "term-3",
+      "start": [2026, 7, 5],
+      "weeks": 2
+    }
+  ]
+}
