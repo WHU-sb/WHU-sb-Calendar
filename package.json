@@ -1,4 +1,6 @@
 {
+  "name": "@whusb/calendar",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "build": "tsx src/engine.ts",
@@ -8,7 +10,7 @@
     "ics": "^3.11.0",
     "nanoid": "^5.0.7",
     "tsx": "^4.19.2",
-    "typescript": "^6.0.2"
+    "typescript": "5.8.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.24"
