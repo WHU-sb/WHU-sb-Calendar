@@ -15,13 +15,13 @@ dependencies:
     specifier: ^4.19.2
     version: 4.21.0
   typescript:
-    specifier: ^6.0.2
-    version: 6.0.2
+    specifier: 5.8.2
+    version: 5.8.2
 
 devDependencies:
   '@types/node':
-    specifier: ^20.11.24
-    version: 20.19.38
+    specifier: ^25.5.2
+    version: 25.5.2
 
 packages:
 
@@ -259,10 +259,10 @@ packages:
     dev: false
     optional: true
 
-  /@types/node@20.19.38:
-    resolution: {integrity: sha512-grSwveyouVpXDwUvnpIb5noOpZQGOzbVdZXdjw8P9WOjnrUenKj2YuIh35OpXQ+UCmMQEgyvRobT5uuK9iDCUQ==}
+  /@types/node@25.5.2:
+    resolution: {integrity: sha512-tO4ZIRKNC+MDWV4qKVZe3Ql/woTnmHDr5JD8UI5hn2pwBrHEwOEMZK7WlNb5RKB6EoJ02gwmQS9OrjuFnZYdpg==}
     dependencies:
-      undici-types: 6.21.0
+      undici-types: 7.18.2
     dev: true
 
   /esbuild@0.27.7:
@@ -369,14 +369,14 @@ packages:
     engines: {node: '>=12.20'}
     dev: false
 
-  /typescript@6.0.2:
-    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
+  /typescript@5.8.2:
+    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
 
-  /undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+  /undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
     dev: true
 
   /yup@1.7.1:
