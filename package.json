@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "ics": "^3.11.0",
-    "nanoid": "^5.0.7",
+    "nanoid": "^5.1.9",
     "tsx": "^4.19.2",
     "typescript": "5.8.2"
   },

@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.11.0
     version: 3.11.0
   nanoid:
-    specifier: ^5.0.7
-    version: 5.1.7
+    specifier: ^5.1.9
+    version: 5.1.9
   tsx:
     specifier: ^4.19.2
     version: 4.21.0
@@ -327,8 +327,8 @@ packages:
     hasBin: true
     dev: false
 
-  /nanoid@5.1.7:
-    resolution: {integrity: sha512-ua3NDgISf6jdwezAheMOk4mbE1LXjm1DfMUDMuJf4AqxLFK3ccGpgWizwa5YV7Yz9EpXwEaWoRXSb/BnV0t5dQ==}
+  /nanoid@5.1.9:
+    resolution: {integrity: sha512-ZUvP7KeBLe3OZ1ypw6dI/TzYJuvHP77IM4Ry73waSQTLn8/g8rpdjfyVAh7t1/+FjBtG4lCP42MEbDxOsRpBMw==}
     engines: {node: ^18 || >=20}
     hasBin: true
     dev: false
