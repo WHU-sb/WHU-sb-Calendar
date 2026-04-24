@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   ics:
-    specifier: ^3.11.0
-    version: 3.11.0
+    specifier: ^3.12.0
+    version: 3.12.0
   nanoid:
     specifier: ^5.1.9
     version: 5.1.9
@@ -313,8 +313,8 @@ packages:
       resolve-pkg-maps: 1.0.0
     dev: false
 
-  /ics@3.11.0:
-    resolution: {integrity: sha512-uDB3GEOYRSZL2BgxLZkHUDwcHqjC36gGuKBrFatl7BtMNQKzO2rXkCj0zTl/QyP9lfyAEp2WZU2XBZciaLJZZw==}
+  /ics@3.12.0:
+    resolution: {integrity: sha512-BBPiZ/TbUyZrxui7SHKGOa/n2HUxaW9ucn7cw47NW9OSKe5tItYxIdN7Uczti5nKURmfwVvYi2aLigCJGH1+cA==}
     dependencies:
       nanoid: 3.3.11
       runes2: 1.1.4
