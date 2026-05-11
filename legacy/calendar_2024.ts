@@ -1,9 +1,10 @@
+/// <reference path="../node_modules/ics/index.d.ts" />
 // https://uc.whu.edu.cn/info/1687/16527.htm
 
 import { createEvents } from 'ics'
 import type { EventAttributes } from 'ics'
 import { writeFileSync } from 'fs'
-import { uidGenerateFactory } from './utils.js'
+import { uidGenerateFactory } from '../utils.js'
 import { dirname } from 'path'
 import { fileURLToPath } from 'url'
 

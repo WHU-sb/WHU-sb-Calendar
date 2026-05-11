@@ -6,126 +6,210 @@
       "id": "class-begin",
       "title": "所有本科生和在籍研究生开始上课",
       "start": [2022, 9, 5],
-      "end": [2022, 9, 6]
+      "end": [2022, 9, 6],
+      "busyStatus": "FREE"
     },
     {
       "id": "undergraduate-freshman-registration",
       "title": "本科新生注册",
       "description": "请仔细对照录取通知书上的要求准备好材料。",
       "start": [2022, 8, 18],
-      "end": [2022, 8, 19]
+      "end": [2022, 8, 19],
+      "busyStatus": "FREE"
     },
     {
       "id": "undergraduate-freshman-before-class-begin",
       "title": "本科生新生入学教育",
       "start": [2022, 8, 19],
-      "end": [2022, 8, 20]
+      "end": [2022, 8, 20],
+      "busyStatus": "FREE"
     },
     {
       "id": "military-training",
       "title": "军训",
       "start": [2022, 8, 20],
-      "end": [2022, 9, 4]
+      "end": [2022, 9, 4],
+      "busyStatus": "FREE"
     },
     {
       "id": "master-registration",
       "title": "研究生返校注册",
       "start": [2022, 9, 2],
-      "end": [2022, 9, 3]
+      "end": [2022, 9, 3],
+      "busyStatus": "FREE"
     },
     {
       "id": "undergraduate-registration",
       "title": "本科生返校注册",
       "start": [2022, 9, 4],
-      "end": [2022, 9, 5]
+      "end": [2022, 9, 5],
+      "busyStatus": "FREE"
     },
     {
       "id": "master-freshman-registration",
       "title": "研究生新生注册",
       "description": "请仔细对照录取通知书上的要求准备好材料。",
       "start": [2022, 9, 3],
-      "end": [2022, 9, 4]
+      "end": [2022, 9, 4],
+      "busyStatus": "FREE"
     },
     {
       "id": "master-freshman-before-class-begin",
       "title": "研究生新生入学教育",
       "start": [2022, 9, 4],
-      "end": [2022, 9, 5]
+      "end": [2022, 9, 5],
+      "busyStatus": "FREE"
     },
     {
       "id": "master-freshman-class-begin",
       "title": "研究生新生开始上课",
       "start": [2022, 9, 5],
-      "end": [2022, 9, 6]
+      "end": [2022, 9, 6],
+      "busyStatus": "FREE"
     },
     {
       "id": "mid-autumn-festival-holiday",
       "title": "中秋节假期",
       "start": [2022, 9, 10],
-      "end": [2022, 9, 11]
+      "end": [2022, 9, 11],
+      "busyStatus": "FREE"
     },
     {
       "id": "national-day-holiday",
       "title": "国庆节假期",
       "start": [2022, 10, 1],
-      "end": [2022, 10, 4]
+      "end": [2022, 10, 4],
+      "busyStatus": "FREE"
     },
     {
       "id": "school-sports-meeting",
       "title": "校运会",
       "start": [2022, 11, 3],
-      "end": [2022, 11, 6]
+      "end": [2022, 11, 6],
+      "busyStatus": "FREE"
     },
     {
       "id": "new-year-holiday",
       "title": "元旦假期",
       "start": [2023, 1, 1],
-      "end": [2023, 1, 2]
+      "end": [2023, 1, 2],
+      "busyStatus": "FREE"
     },
     {
       "id": "spring-festival-holiday",
       "title": "春节假期",
       "start": [2023, 1, 22],
-      "end": [2023, 1, 23]
+      "end": [2023, 1, 23],
+      "busyStatus": "FREE"
     },
     {
       "id": "term-1-final-week",
       "title": "考试周",
       "start": [2022, 12, 25],
-      "end": [2023, 1, 8]
+      "end": [2023, 1, 8],
+      "busyStatus": "FREE"
     },
     {
       "id": "winter-vacation",
       "title": "寒假",
       "description": "教职工寒假执行学校通知。",
       "start": [2023, 1, 8],
-      "end": [2023, 2, 12]
+      "end": [2023, 2, 12],
+      "busyStatus": "FREE"
     },
     {
       "id": "registration-term-2",
       "title": "第二学期返校注册",
       "start": [2023, 2, 12],
-      "end": [2023, 2, 13]
+      "end": [2023, 2, 13],
+      "busyStatus": "FREE"
     },
     {
       "id": "class-begin-term-2",
       "title": "第二学期开始上课",
       "start": [2023, 2, 13],
-      "end": [2023, 2, 14]
+      "end": [2023, 2, 14],
+      "busyStatus": "FREE"
     },
     {
       "id": "ching-ming-festival-holiday",
       "title": "清明节",
       "description": "调休细节日后更新",
       "start": [2023, 4, 5],
-      "end": [2023, 4, 6]
+      "end": [2023, 4, 6],
+      "busyStatus": "FREE"
     },
     {
       "id": "may-day-holiday",
       "title": "劳动节假期",
-      "description": "调休通知见官网。",
+      "description": "调休通知见：https://uc.whu.edu.cn/info/1520/16195.htm",
       "start": [2023, 5, 1],
-      "end": [2023, 5, 2]
+      "end": [2023, 5, 2],
+      "busyStatus": "FREE"
+    },
+    {
+      "id": "may-day-adjustment-1",
+      "title": "[劳动节调休]十二周周二",
+      "start": [2023, 4, 23],
+      "end": [2023, 4, 24],
+      "busyStatus": "BUSY",
+      "description": "调休通知见：https://uc.whu.edu.cn/info/1520/16195.htm"
+    },
+    {
+      "id": "may-day-adjustment-2",
+      "title": "[劳动节调休]十一周周六",
+      "start": [2023, 4, 29],
+      "end": [2023, 4, 30],
+      "busyStatus": "BUSY",
+      "description": "调休通知见：https://uc.whu.edu.cn/info/1520/16195.htm"
+    },
+    {
+      "id": "may-day-adjustment-3",
+      "title": "[劳动节调休]十二周周日",
+      "start": [2023, 4, 30],
+      "end": [2023, 5, 1],
+      "busyStatus": "BUSY",
+      "description": "调休通知见：https://uc.whu.edu.cn/info/1520/16195.htm"
+    },
+    {
+      "id": "may-day-adjustment-4",
+      "title": "[劳动节调休]十一周周日",
+      "start": [2023, 5, 2],
+      "end": [2023, 5, 3],
+      "busyStatus": "BUSY",
+      "description": "调休通知见：https://uc.whu.edu.cn/info/1520/16195.htm"
+    },
+    {
+      "id": "may-day-adjustment-5",
+      "title": "[劳动节调休]十二周周六",
+      "start": [2023, 5, 3],
+      "end": [2023, 5, 4],
+      "busyStatus": "BUSY",
+      "description": "调休通知见：https://uc.whu.edu.cn/info/1520/16195.htm"
+    },
+    {
+      "id": "may-day-adjustment-6",
+      "title": "[劳动节调休]十二周周三",
+      "start": [2023, 5, 6],
+      "end": [2023, 5, 7],
+      "busyStatus": "BUSY",
+      "description": "调休通知见：https://uc.whu.edu.cn/info/1520/16195.htm"
+    },
+    {
+      "id": "dragon-boat-festival-holiday",
+      "title": "端午节",
+      "start": [2023, 6, 22],
+      "end": [2023, 6, 23],
+      "busyStatus": "FREE",
+      "description": "调休细节日后更新"
+    },
+    {
+      "id": "summer-vacation",
+      "title": "暑假",
+      "description": "教职工暑假执行学校通知",
+      "start": [2023, 7, 16],
+      "end": [2023, 9, 3],
+      "busyStatus": "FREE"
     }
   ],
   "semesters": [

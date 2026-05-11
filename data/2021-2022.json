@@ -6,151 +6,241 @@
       "id": "class-begin",
       "title": "所有本科生和在籍研究生开始上课",
       "start": [2021, 9, 6],
-      "end": [2021, 9, 7]
+      "end": [2021, 9, 7],
+      "busyStatus": "FREE",
+      "description": "时间调整见：https://www.whu.edu.cn/info/1118/18862.htm"
     },
     {
       "id": "undergraduate-freshman-registration",
       "title": "本科新生注册",
-      "description": "请仔细对照录取通知书上的要求准备好材料。",
+      "description": "请仔细对照录取通知书上的要求准备好材料。时间调整见：https://www.whu.edu.cn/info/1118/18862.htm",
       "start": [2021, 9, 2],
-      "end": [2021, 9, 3]
+      "end": [2021, 9, 3],
+      "busyStatus": "FREE"
     },
     {
       "id": "undergraduate-freshman-before-class-begin",
       "title": "本科生新生入学教育",
       "start": [2021, 9, 3],
-      "end": [2021, 9, 6]
+      "end": [2021, 9, 6],
+      "busyStatus": "FREE",
+      "description": "时间调整见：https://www.whu.edu.cn/info/1118/18862.htm"
     },
     {
       "id": "master-registration",
       "title": "研究生返校注册",
       "description": "",
       "start": [2021, 9, 3],
-      "end": [2021, 9, 4]
+      "end": [2021, 9, 4],
+      "busyStatus": "FREE"
     },
     {
       "id": "undergraduate-registration",
       "title": "本科生返校注册",
       "description": "",
       "start": [2021, 9, 5],
-      "end": [2021, 9, 6]
+      "end": [2021, 9, 6],
+      "busyStatus": "FREE"
     },
     {
       "id": "master-freshman-registration",
       "title": "研究生新生注册",
       "description": "请仔细对照录取通知书上的要求准备好材料。",
       "start": [2021, 9, 11],
-      "end": [2021, 9, 12]
+      "end": [2021, 9, 12],
+      "busyStatus": "FREE"
     },
     {
       "id": "master-freshman-before-class-begin",
       "title": "研究生新生入学教育",
       "description": "",
       "start": [2021, 9, 12],
-      "end": [2021, 9, 13]
+      "end": [2021, 9, 13],
+      "busyStatus": "FREE"
     },
     {
       "id": "master-freshman-class-begin",
       "title": "研究生新生开始上课",
       "description": "",
       "start": [2021, 9, 13],
-      "end": [2021, 9, 14]
+      "end": [2021, 9, 14],
+      "busyStatus": "FREE"
     },
     {
       "id": "mid-autumn-festival-holiday",
       "title": "中秋节假期",
       "start": [2021, 9, 21],
-      "end": [2021, 9, 22]
+      "end": [2021, 9, 22],
+      "busyStatus": "FREE",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
     },
     {
       "id": "national-day-holiday",
       "title": "国庆节假期",
       "start": [2021, 10, 1],
-      "end": [2021, 10, 4]
+      "end": [2021, 10, 4],
+      "busyStatus": "FREE",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
     },
     {
       "id": "school-sports-meeting",
       "title": "校运会",
       "description": "",
       "start": [2021, 11, 5],
-      "end": [2021, 11, 7]
+      "end": [2021, 11, 7],
+      "busyStatus": "FREE"
     },
     {
       "id": "new-year-holiday",
       "title": "元旦假期",
       "description": "",
       "start": [2022, 1, 1],
-      "end": [2022, 1, 2]
+      "end": [2022, 1, 2],
+      "busyStatus": "FREE"
     },
     {
       "id": "spring-festival-holiday",
       "title": "春节假期",
       "description": "",
       "start": [2022, 2, 1],
-      "end": [2022, 2, 2]
+      "end": [2022, 2, 2],
+      "busyStatus": "FREE"
     },
     {
       "id": "term-1-final-week",
       "title": "考试周",
       "description": "",
       "start": [2021, 12, 26],
-      "end": [2022, 1, 9]
+      "end": [2022, 1, 9],
+      "busyStatus": "FREE"
     },
     {
       "id": "winter-vacation",
       "title": "寒假",
       "description": "教职工寒假执行学校通知。",
       "start": [2022, 1, 9],
-      "end": [2022, 2, 13]
+      "end": [2022, 2, 13],
+      "busyStatus": "FREE"
     },
     {
       "id": "registration-term-2",
       "title": "第二学期返校注册",
       "description": "",
       "start": [2022, 2, 13],
-      "end": [2022, 2, 14]
+      "end": [2022, 2, 14],
+      "busyStatus": "FREE"
     },
     {
       "id": "class-begin-term-2",
       "title": "第二学期开始上课",
       "description": "",
       "start": [2022, 2, 14],
-      "end": [2022, 2, 15]
+      "end": [2022, 2, 15],
+      "busyStatus": "FREE"
     },
     {
       "id": "ching-ming-festival-holiday",
       "title": "清明节",
       "description": "调休细节日后更新",
       "start": [2022, 4, 5],
-      "end": [2022, 4, 6]
+      "end": [2022, 4, 6],
+      "busyStatus": "FREE"
     },
     {
       "id": "may-day-holiday",
       "title": "劳动节",
       "description": "调休细节日后更新",
       "start": [2022, 5, 1],
-      "end": [2022, 5, 2]
+      "end": [2022, 5, 2],
+      "busyStatus": "FREE"
     },
     {
       "id": "dragon-boat-festival-holiday",
       "title": "端午节",
       "description": "调休细节日后更新",
       "start": [2022, 6, 3],
-      "end": [2022, 6, 4]
+      "end": [2022, 6, 4],
+      "busyStatus": "FREE"
     },
     {
       "id": "term-2-final-week",
       "title": "第二学期考试周",
       "description": "",
       "start": [2022, 6, 5],
-      "end": [2022, 6, 19]
+      "end": [2022, 6, 19],
+      "busyStatus": "FREE"
     },
     {
       "id": "summer-vacation",
       "title": "暑假",
       "description": "教职工暑假执行学校通知",
       "start": [2022, 7, 17],
-      "end": [2022, 9, 4]
+      "end": [2022, 9, 4],
+      "busyStatus": "FREE"
+    },
+    {
+      "id": "mid-autumn-adjustment-1",
+      "title": "[中秋调休] 第 3 周周一",
+      "start": [2021, 9, 18],
+      "end": [2021, 9, 19],
+      "busyStatus": "BUSY",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
+    },
+    {
+      "id": "mid-autumn-adjustment-2",
+      "title": "[中秋调休] 第 2 周周六",
+      "start": [2021, 9, 20],
+      "end": [2021, 9, 21],
+      "busyStatus": "BUSY",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
+    },
+    {
+      "id": "national-day-adjustment-1",
+      "title": "[国庆调休] 第 5 周周三",
+      "start": [2021, 9, 26],
+      "end": [2021, 9, 27],
+      "busyStatus": "BUSY",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
+    },
+    {
+      "id": "national-day-adjustment-2",
+      "title": "[国庆调休] 第 4 周周日",
+      "start": [2021, 10, 6],
+      "end": [2021, 10, 7],
+      "busyStatus": "BUSY",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
+    },
+    {
+      "id": "national-day-adjustment-3",
+      "title": "[国庆调休] 第 4 周周六",
+      "start": [2021, 10, 4],
+      "end": [2021, 10, 5],
+      "busyStatus": "BUSY",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
+    },
+    {
+      "id": "national-day-adjustment-4",
+      "title": "[国庆调休] 第 5 周周日",
+      "start": [2021, 10, 5],
+      "end": [2021, 10, 6],
+      "busyStatus": "BUSY",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
+    },
+    {
+      "id": "national-day-adjustment-5",
+      "title": "[国庆调休] 第 5 周周四",
+      "start": [2021, 10, 9],
+      "end": [2021, 10, 10],
+      "busyStatus": "BUSY",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
+    },
+    {
+      "id": "national-day-adjustment-6",
+      "title": "[国庆调休] 第 5 周周六",
+      "start": [2021, 10, 7],
+      "end": [2021, 10, 8],
+      "busyStatus": "BUSY",
+      "description": "时间调整见：http://uc.whu.edu.cn/info/1039/12145.htm"
     }
   ],
   "semesters": [

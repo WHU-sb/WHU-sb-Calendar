@@ -1,3 +1,4 @@
+/// <reference path="../node_modules/ics/index.d.ts" />
 // https://uc.whu.edu.cn/xl/a2021_2022nxl.htm
 // https://www.whu.edu.cn/info/1118/18862.htm
 // http://uc.whu.edu.cn/info/1039/12145.htm
@@ -8,7 +9,7 @@ import { writeFileSync } from 'fs'
 
 import { dirname } from 'path'
 import { fileURLToPath } from 'url'
-import './utils.js'
+import '../utils.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)

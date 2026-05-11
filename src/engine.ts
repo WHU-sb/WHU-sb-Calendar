@@ -1,3 +1,4 @@
+/// <reference path="../node_modules/ics/index.d.ts" />
 import { createEvents, type EventAttributes } from 'ics'
 import { writeFileSync, readFileSync, readdirSync, mkdirSync, existsSync } from 'fs'
 import { join, dirname } from 'path'
@@ -23,6 +24,7 @@ interface CalendarData {
     description?: string
     start: [number, number, number]
     end: [number, number, number]
+    busyStatus?: 'FREE' | 'BUSY'
   }[]
   semesters: {
     name: string
@@ -61,7 +63,7 @@ async function generate() {
         description: e.description || '',
         start: e.start,
         end: e.end,
-        busyStatus: 'FREE',
+        busyStatus: e.busyStatus || 'FREE',
       })
     }
 
@@ -83,7 +85,7 @@ async function generate() {
     }
 
     // Generate individual ics
-    createEvents(calendarEvents, (error, value) => {
+    createEvents(calendarEvents, (error: Error | undefined, value: string | undefined) => {
       if (!error && value) {
         writeFileSync(join(distDir, `${data.name}.ics`), value)
         console.log(`✅ Generated ${data.name}.ics`)
@@ -99,7 +101,7 @@ async function generate() {
       const endYear = data.name.split('-')[1]
       const rangeName = `${startYear}-${endYear}`
       
-      createEvents(allEvents, (error, value) => {
+      createEvents(allEvents, (error: Error | undefined, value: string | undefined) => {
         if (!error && value) {
           writeFileSync(join(distDir, `${rangeName}.ics`), value)
           console.log(`✅ Generated cumulative ${rangeName}.ics`)
@@ -109,7 +111,7 @@ async function generate() {
   }
 
   // Generate all.ics
-  createEvents(allEvents, (error, value) => {
+  createEvents(allEvents, (error: Error | undefined, value: string | undefined) => {
     if (!error && value) {
       writeFileSync(join(distDir, 'all.ics'), value)
       console.log(`✅ Generated all.ics`)

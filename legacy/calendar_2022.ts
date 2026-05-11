@@ -1,10 +1,11 @@
+/// <reference path="../node_modules/ics/index.d.ts" />
 // https://uc.whu.edu.cn/xl/a2022_2023nxl.htm
 // 五一调休：https://uc.whu.edu.cn/info/1520/16195.htm
 
 import { createEvents } from 'ics'
 import type { EventAttributes } from 'ics'
 import { writeFileSync } from 'fs'
-import { uidGenerateFactory } from './utils.js'
+import { uidGenerateFactory } from '../utils.js'
 import { dirname } from 'path'
 import { fileURLToPath } from 'url'
 
